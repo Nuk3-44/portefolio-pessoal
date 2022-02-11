@@ -4,99 +4,146 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>JT Portfloio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 </head>
 <body>
-    <script src="functions.js"></script>
-    <header>
-        <div class="title">
-            <h1>my personal portfolio</h1>
+    <script src="script.js"></script>
+    <header class="page-head">
+        <div class="title-container">
+            <h1>My Personal Portfolio</h1>
         </div>
-        <div class="menu">
-            <ul class="navigation-menu">
-                <li><a href="#">about</a></li>
-                <li><a href="#">skills</a></li>
-                <li><a href="#">projects</a></li>
-                <li><a href="#">contacts</a></li>
+        <div class="menu-container">
+            <ul class="menu">
+                <li><a href="#about-me-link">About</a></li>
+                <li><a href="#skills-tools-link">Skills & Tools</a></li>
+                <li><a href="#projects-link">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
             </ul>
         </div>
-        <div class="dark-light-mode">
-            <button class="dark-light-button"></button>
-        </div>
     </header>
-    <div class="presentation-box">
-        <div class="presentation-title">
-            <h4>about me</h4>
+    <div class="about-me-title-container" id="about-me-link">
+        <h1>About Me</h1>
+    </div>
+    <div class="about-me-container">
+        <div class="my-profile-img">
+            <img src="images/my-profile-img.jpeg" alt="">
         </div>
-        <div class="bio-box">
-            <div class="my-profile-img">
-                <img src="images/my-profile-img.jpeg" alt="">
+        <div class="bio-text-container">
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Pariatur voluptatem molestias libero exercitationem eveniet repellendus amet 
+                dolorem nihil quas consequuntur aliquid vero eaque fugit ut deserunt, soluta voluptate earum sit.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Pariatur voluptatem molestias libero exercitationem eveniet repellendus amet 
+                dolorem nihil quas consequuntur aliquid vero eaque fugit ut deserunt, soluta voluptate earum sit.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Pariatur voluptatem molestias libero exercitationem eveniet repellendus amet 
+                dolorem nihil quas consequuntur aliquid vero eaque fugit ut deserunt, soluta voluptate earum sit.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Pariatur voluptatem molestias libero exercitationem eveniet repellendus amet 
+                dolorem nihil quas consequuntur aliquid vero eaque fugit ut deserunt, soluta voluptate earum sit.
+            </p>
+        </div>
+    </div>
+    <div class="skills-tools-title-container" id="skills-tools-link">
+        <h1>Skills & Tools</h1>
+    </div>
+    <div class="skills-tools-container">
+        <h1>Skills</h1>
+        <div class="skills-box">
+            <div class="skills-container">
+                <div class="icon-div">
+                    <img src="images/javascript-icon.png" alt="">
+                    <span>JAVASCRIPT</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/html-icon.png" alt="">
+                    <span>HTML</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/css-icon.png" alt="">
+                    <span>CSS</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/java-icon.png" alt="">
+                    <span>JAVA</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/kotlin-icon.png" alt="">
+                    <span>KOTLIN</span>
+                </div>
             </div>
-            <div class="presentation-text-box">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Sit reiciendis modi aliquam deserunt laboriosam obcaecati quae, 
-                    in odio earum voluptas consequatur voluptatem molestiae ullam aliquid, facere maiores, velit eos saepe.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Sit reiciendis modi aliquam deserunt laboriosam obcaecati quae, 
-                    in odio earum voluptas consequatur voluptatem molestiae ullam aliquid, facere maiores, velit eos saepe.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Sit reiciendis modi aliquam deserunt laboriosam obcaecati quae, 
-                    in odio earum voluptas consequatur voluptatem molestiae ullam aliquid, facere maiores, velit eos saepe.
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
-                    Sit reiciendis modi aliquam deserunt laboriosam obcaecati quae, 
-                    in odio earum voluptas consequatur voluptatem molestiae ullam aliquid, facere maiores, velit eos saepe.
-                </p>
+        </div>
+        <h1>Tools</h1>
+        <div class="tools-box">
+            <div class="tools-container">
+                <div class="icon-div">
+                    <img src="images/visual-studio-code-icon.png" alt="">
+                    <span>VSC</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/github-icon.png" alt="">
+                    <span>GITHUB</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/idea-icon.png" alt="">
+                    <span>INTELLIJ IDEA</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/notion-icon.png" alt="">
+                    <span>NOTION</span>
+                </div>
+                <div class="icon-div">
+                    <img src="images/android-studio-icon.png" alt="">
+                    <span>ANDROID STUDIO</span>
+                </div>
             </div>
         </div>
     </div>
-    <div class="skills-tools-box">
-        <div class="skills-tools-title">
-            <h4>skills</h4>
-        </div>
-        <div class="skills-type">
-            <div class="programming-skills">
-                <h4>programming</h4>
-                <div class="skills-img">
-                    <div>
-                        <img src="images/javascript-icon.png" alt="">
-                        <p>js</p>
-                    </div>
-                    <div>
-                        <img src="images/html-icon.png" alt="">
-                        <p>html</p>
-                    </div>
-                    <div>
-                        <img src="images/css-icon.png" alt="">
-                        <p>css</p>
-                    </div>
-                    <div>
-                        <img src="images/java-icon.png" alt="">
-                        <p>java</p>
-                    </div>
-                </div>
+    <div class="projects-title-container" id="projects-link">
+        <h1>My Projects</h1>
+    </div>
+    <div class="projects-container">
+        <div class="projects-box">
+            <div class="project-div">
+                <img src="images/random-img-1.jpg" alt="">
+                <span>Project 1</span>
             </div>
-            <div class="programming-tools">
-                <h4>tools</h4>
-                <div class="tools-img">
-                    <div>
-                        <img src="images/visual-studio-code-icon.png" alt="">
-                        <p>vsc</p>
-                    </div>
-                    <div>
-                        <img src="images/github-icon.png" alt="">
-                        <p>github</p>
-                    </div>
-                    <div>
-                        <img src="images/idea-icon.png" alt="">
-                        <p>intellij idea</p>
-                    </div>
-                    <div>
-                        <img src="images/notion-icon.png" alt="">
-                        <p>notion</p>
-                    </div>
-                </div>
+            <div class="project-div">
+                <img src="images/random-img-2.jpg" alt="">
+                <span>Project 2</span>
+            </div>
+            <div class="project-div">
+                <img src="images/random-img-3.jpg" alt="">
+                <span>Project 3</span>
+            </div>
+            <div class="project-div">
+                <img src="images/random-img-4.jpg" alt="">
+                <span>Project 4</span>
+            </div>
+        </div>
+    </div>
+    <div class="contacts-container">
+        <div class="contacts-title-container">
+            <h1>Follow Me:</h1>
+        </div>
+        <div class="follow-platforms">
+            <div class="follow">
+                <a href="https://github.com/Nuk3-44" target="_blank">
+                    <img src="images/github-icon.png" alt="">
+                </a>
+            </div>
+            <div class="follow">
+                <a href="https://www.facebook.com/profile.php?id=100005697422303" target="_blank">
+                    <img src="images/facebook-icon.png" alt="">
+                </a>
+            </div>
+            <div class="follow">
+                <a href="https://www.instagram.com/joaotavares2002/" target="_blank">
+                    <img src="images/instagram-icon.png" alt="">
+                </a>
             </div>
         </div>
     </div>
